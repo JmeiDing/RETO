@@ -1,0 +1,1 @@
+ 1. APT15 gains initial access to network 2. Deploys RoyalCli, RoyalDNS, and BS2005 backdoors 3. Backdoors communicate with C&C servers to receive commands 4. APT15 uses Windows tools like net and ping for internal recon 5. Stolen VPN certificates utilized to regain access after remediation attempts 6. Backdoors continue communicating with C&C during intrusion 

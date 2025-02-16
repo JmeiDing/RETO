@@ -1,0 +1,1 @@
+ 1. Weaponized documents exploiting CVE-2012-0158 are sent to targets. 2. Opening document runs exploit code and multi-stage shellcode. 3. Shellcode drops and executes loader and encrypted PlugX payload. 4. Loader decrypts and installs PlugX payload from registry. 5. PlugX connects to C2 servers to receive commands. 

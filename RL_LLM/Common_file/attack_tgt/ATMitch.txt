@@ -1,0 +1,1 @@
+ 1. Attacker gains access to bank's network and ATM system. 2. ATMitch loader and payload are manually installed on the ATM. 3. Attacker logs into ATM remotely and provides cash dispense commands via files. 4. Malware dispenses cash from the ATM based on the commands. 

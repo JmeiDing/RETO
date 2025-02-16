@@ -1,0 +1,1 @@
+ 1. Initial access via exploitation of public facing apps 2. Webshell deployment 3. Lateral movement with stolen credentials 4. Backdoor deployment on interesting hosts 5. Data exfiltration 6. Wiper malware deployment disguised as ransomware 

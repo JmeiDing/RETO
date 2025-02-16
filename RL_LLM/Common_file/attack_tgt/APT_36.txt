@@ -1,0 +1,1 @@
+ 1. Send phishing email with document link 2. User opens document containing malicious macro 3. Macro creates directories and extracts RAT executable 4. Macro executes RAT payload 5. RAT connects to C2 and steals data 

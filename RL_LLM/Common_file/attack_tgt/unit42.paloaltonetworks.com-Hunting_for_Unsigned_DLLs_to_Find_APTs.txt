@@ -1,0 +1,1 @@
+ 1. Stately Taurus uses DLL side-loading to load PlugX RAT into legitimate software like PDF readers and antivirus. 2. Selective Pisces abuses DreamSecurity software to load payloads and uses DLL side-loading with spoolv.exe for persistence. 3. Raspberry Robin campaigns use rundll32.exe to load scrambled DLLs from ProgramData/AppData folders. 

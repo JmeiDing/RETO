@@ -1,0 +1,1 @@
+ 1. Generate unique bot ID for infected system. 2. Connect to hardcoded C2 server to register botnet. 3. Encrypt files on system and append .lock64 extension. 4. Display ransom note with directions to access decryptor. 5. Demand ransom payment in exchange for decryptor. 

@@ -1,0 +1,1 @@
+1. The attacker bundles the adware with legitimate-looking software installers. 2. The user runs the software installer, deploying the bundled adware. 3. The adware establishes persistence using techniques like scheduled tasks. 4. It makes network connections to command servers to exfiltrate system data. 5. The adware payload may optionally download additional malware modules. 

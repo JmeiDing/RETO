@@ -1,0 +1,1 @@
+ 1. Compromise target network via Skipper or PowerShell Empire implants 2. Deploy Crutch backdoor 3. Crutch backdoor receives commands from operator via Dropbox 4. Crutch stages, compresses, and encrypts documents and files 5. Crutch exfiltrates stolen files to Dropbox using API 6. Crutch achieves persistence via DLL hijacking 

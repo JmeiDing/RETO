@@ -1,0 +1,1 @@
+ 1. Phishing to steal Citrix/LogMeIn credentials 2. Login to Citrix/LogMeIn using stolen credentials 3. Lateral movement and privilege escalation on network 4. Deploy malware via DLL sideloading 5. Use Mimikatz and other tools to collect data 6. Exfiltrate data to Dropbox using WinRAR and cURL 

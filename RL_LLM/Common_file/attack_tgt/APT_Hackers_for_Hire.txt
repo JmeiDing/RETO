@@ -1,0 +1,1 @@
+ 1. Specially crafted 3ds Max plugin distributed to victim 2. Plugin installs malware and additional tools 3. Tools gather documents, keystrokes, screenshots, credentials 4. Data exfiltrated to command and control server in South Korea 5. Attackers analyze stolen data to gain business intelligence 

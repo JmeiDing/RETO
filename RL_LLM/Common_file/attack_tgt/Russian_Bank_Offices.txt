@@ -1,0 +1,1 @@
+ 1. Phishing emails with Excel attachments are sent spoofing disgruntled bank customers. 2. The attachments contain an obfuscated EPS exploit, likely CVE-2017-0262. 3. The exploit installs malware that calls back to a compromised Minecraft C2 server. 

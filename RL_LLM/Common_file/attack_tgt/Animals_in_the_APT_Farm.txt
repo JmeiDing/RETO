@@ -1,0 +1,1 @@
+The attack process typically starts by delivering a first-stage Trojan like Tafacalou via watering hole or exploit. This then escalates to more advanced malware like Dino or Babar on high-value targets. The customized Trojans communicate with C2 servers to exfiltrate data from victims. 

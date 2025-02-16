@@ -1,0 +1,1 @@
+ 1. Spearphishing emails with weaponized Office docs or links to RAR archives are sent to targets. 2. Opening attachments or links delivers PlugX droppers. 3. Droppers use DLL sideloading to install PlugX payload. 4. PlugX provides backdoor access and connects to C2 servers. 5. C2 commands allow exfiltration of data, screenshots, keylogging etc. 

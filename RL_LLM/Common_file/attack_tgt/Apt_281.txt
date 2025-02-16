@@ -1,0 +1,1 @@
+ 1. APT28 registers lookalike domains mimicking their targets over many months. 2. They set up command and control servers and malware for staging. 3. Spearphishing emails will likely be sent to targets attempting to get them to enter credentials on fake banking sites. 4. The entered credentials can then be captured and malware downloaded to further infiltrate systems. 

@@ -1,0 +1,1 @@
+ 1. Malicious RTF sent to victim 2. RTF exploits CVE-2017-11882 to download HTA file 3. HTA checks for AV then extracts and executes Srvstr.exe backdoor 4. Srvstr.exe sideloads malicious DLL 5. Malicious DLL executes final VB backdoor payload 6. Backdoor connects to attacker's command and control server 

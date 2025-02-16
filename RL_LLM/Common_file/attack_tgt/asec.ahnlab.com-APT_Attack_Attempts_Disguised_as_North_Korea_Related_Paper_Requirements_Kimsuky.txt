@@ -1,0 +1,1 @@
+ 1. Target receives and opens malicious Word document titled "March Monthly KIMA Paper_Requirements.doc". 2. Document macro downloads and executes Visual Basic script from attacker's server. 3. Script collects sensitive system data and exfiltrates it to command and control server. 4. Script establishes persistence on system to maintain access for future activities. 

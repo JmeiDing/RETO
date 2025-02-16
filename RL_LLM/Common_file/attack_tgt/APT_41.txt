@@ -1,0 +1,1 @@
+ 1. Gain initial access through phishing emails with documents. 2. Compromise intermediary systems to access segmented networks. 3. Use malware toolkits for persistence, espionage, and cybercrime. 4. Respond rapidly to changes, regaining access. 5. Leverage supply chain compromises to infect legitimate files. 6. Limit malware deployment to intended final victims. 

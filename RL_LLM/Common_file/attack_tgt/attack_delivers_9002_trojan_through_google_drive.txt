@@ -1,0 +1,1 @@
+ 1. The attacker sends a spear phishing email with a shortened URL redirecting to the actor-controlled server. 2. The server redirects to a Zip file on Google Drive containing the dropper. 3. The victim downloads and executes the dropper, installing the 9002 Trojan through DLL sideloading. 4. The 9002 Trojan connects to the C2 server, sends system info, and can load plugins. 

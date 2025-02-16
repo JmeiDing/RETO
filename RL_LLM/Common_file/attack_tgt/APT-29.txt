@@ -1,0 +1,1 @@
+ - Exploits like Citrix to gain initial foothold on internet-facing servers - WellMess or WellMail malware installed for persistent access - Malware communicates with C2 servers to receive commands - Lateral movement and data exfiltration within networks - Sensitive data likely stolen for intelligence purposes - Infrastructure maintained for future access and operations 

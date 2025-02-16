@@ -1,0 +1,1 @@
+ 1. Exploit authentication bypass in Desktop Central. 2. Upload webshells for initial access. 3. Use legitimate tools to download malware. 4. Malware creates persistence and connects to C2. 5. Conduct enumeration, reconnaissance, and credential dumping. 

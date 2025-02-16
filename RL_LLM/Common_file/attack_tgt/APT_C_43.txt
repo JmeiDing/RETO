@@ -1,0 +1,1 @@
+ 1. Send phishing emails with decoy document containing malicious macro 2. Macro downloads next stage malware NisSrv.bat 3. NisSrv.bat downloads setupXOX.msi installer 4. Installer deploys Pyark backdoor components 5. Pyark backdoor collects sensitive documents, keystrokes, screenshots, camera and microphone data 6. Data exfiltrated via FTP to attackers 

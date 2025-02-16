@@ -1,0 +1,1 @@
+ 1. Add shellcode to global atom table from injecting process. 2. Use APC to invoke ROP chain in target process to allocate RWX memory. 3. ROP chain copies shellcode to RWX memory and executes it. 4. Shellcode restores hijacked thread's execution when done. 

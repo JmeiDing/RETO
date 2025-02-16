@@ -1,0 +1,1 @@
+ 1. Email sent from compromised Ukrainian military account with macro document. 2. Macro document downloads and executes MSI installer when enabled. 3. MSI installer installs SunSeed Lua malware. 4. SunSeed contacts C2 server to download additional payloads. 

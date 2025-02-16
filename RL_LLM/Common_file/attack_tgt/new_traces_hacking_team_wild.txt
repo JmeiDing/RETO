@@ -1,0 +1,1 @@
+ 1. Threat actors distribute spear phishing emails with PDF document attachments to targets. 2. The PDFs contain exploits that install the Hacking Team RCS spyware if opened. 3. The RCS implant connects to command and control servers controlled by the threat actors. 4. Threat actors use the RCS remote access capabilities to extract data from the infected system and network. 

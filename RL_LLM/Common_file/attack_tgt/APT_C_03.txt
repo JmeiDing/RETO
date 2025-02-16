@@ -1,0 +1,1 @@
+ 1. Spearphishing emails sent with HWP document exploits 2. Documents exploit vulnerability to install OnionDog malware 3. Malware retrieves other malware like USB worms from C2 servers 4. USB worms infect connected devices and send data to C2 5. Backdoors allow persistent access to compromised systems 6. Data exfiltrated from targeted organizations over encrypted C2 channels 

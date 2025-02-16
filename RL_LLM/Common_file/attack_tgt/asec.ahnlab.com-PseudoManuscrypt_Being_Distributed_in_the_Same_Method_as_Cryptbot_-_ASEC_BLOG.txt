@@ -1,0 +1,1 @@
+ 1. User searches for cracked software and visits a malicious site. 2. Malicious NSIS installer runs and extracts malware loaders/droppers. 3. Shortcuts run encoded shellcode that decodes and executes malicious PE file. 4. PE file injects into svchost, creates registry persistence, steals data, and communicates with C2 server. 

@@ -1,0 +1,1 @@
+ 1. Spearphishing email with Word document attachment containing macro sent to target 2. Macro exploits to drop and decode UPPERCUT files using certutil 3. Macro launches GUP.exe which sideloads UPPERCUT DLL payload 4. UPPERCUT payload executes and connects to C2 server 5. C2 server sends commands to backdoor on victim system 

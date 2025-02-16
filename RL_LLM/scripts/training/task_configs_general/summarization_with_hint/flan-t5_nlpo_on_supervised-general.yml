@@ -1,0 +1,149 @@
+tokenizer:
+  model_name: ./pretrain_model/flan-t5-large
+  padding_side: "right"
+  truncation_side: "right"
+  pad_token_as_eos_token: False
+
+
+reward_fn:
+  id: summarization_with_hint
+  args:
+    gpt3_model: 'gpt-3.5-turbo'
+    interval: 0.5
+    timeout: 20.0
+    exp: 2.0
+    patience: 10
+    temperature: 0.7
+    max_tokens: 160
+    num_seqs: 4
+    selection_strategy: "choose_all"
+    top_p: 1.0
+    stop_words: ["Article:", "Q:",  "A:", "<|im_end|>"]
+    prompt_prefix: "Extract the keywords: "
+    prompt_path: "./prompts/general_fs.txt"
+    hint_prompt_path: "./prompts/general_hint_fs.txt"
+    gpt3_metric: "rouge-avg"
+    gpt3_coef: 10.
+    use_baseline: False
+    t5_coef: 0.
+    t5_metric: "hint_hit"
+    t5_pos_coef: 1.0
+    t5_neg_coef: -0.2 # -0.1 
+    step_reward_coef: 1.
+    split_token: ";"
+    # token id of t5 for ";" is 117
+    # token id of bart for ";" is 131
+    # token id of flan-t5-large for ";" is 3
+    split_token_id: 3
+
+
+env:
+  n_envs: 10
+  args:
+    max_prompt_length: 1024 #input:1024  + tokenizer('Extract the keywords:'):5
+    max_episode_length: 100
+    terminate_on_eos: True
+    prompt_truncation_side: "right"
+    context_start_token: 0
+
+datapool:
+  id: general_with_hint
+  args:
+    prompt_prefix: "Extract the keywords: "
+    dataset: "general"
+    n_train: 3
+    n_val: 2
+    n_test: 2
+    extraction_mode: "textrank"
+    extraction_source: "all"
+
+alg:
+  id: nlpo
+  args: 
+    n_steps: 512 # 512
+    batch_size: 2 # 24
+    verbose: 1
+    learning_rate: 0.000002
+    n_epochs: 5 # 5
+    ent_coef: 0.0
+    vf_coef: 0.5
+  kl_div:
+    coeff: 0.005 # 0.005
+    target_kl: 0.5 # 0.5
+  policy:
+    id: maskable_seq2seq_lm_actor_critic_policy
+    args:
+      #./sft4lms/ckpt/general_3_1024_64/textrank-all/flan-t5-large-ep1/best_checkpoint
+      model_name: ./sft4lms/ckpt/general_133_1024_64/textrank-all/flan-t5-large-ep1/best_checkpoint
+      apply_model_parallel: True
+      prompt_truncation_side: "right"
+      min_tokens_to_keep: 100
+      top_mask: 0.9
+      mask_type: "learned_top_p"
+      target_update_iterations: 20
+      generation_kwargs:
+        min_length: 10
+        max_new_tokens: 80
+        do_sample: True
+        top_k: 100
+
+        
+ 
+train_evaluation:
+  #eval_batch_size: 10
+  eval_batch_size: 2
+  #n_iters: 20=epoch
+  n_iters: 2
+  eval_every: 2
+  save_every: 2
+  metrics:
+    - id: summarization_with_hint
+      args: 
+        gpt3_model: 'gpt-3.5-turbo-16k'
+        interval: 0.5
+        timeout: 20.0
+        exp: 2
+        patience: 10
+        split_token: ";"
+        # token id of t5 for ";" is 117
+        # token id of bart for ";" is 131
+        # token id of flan-t5-large for ";" is 3
+        split_token_id: 131
+        temperature: 0.7
+        max_tokens: 160
+        num_seqs: 3
+        selection_strategy: "choose_all"
+        top_p: 1.0
+        stop_words: ["Article:", "Q:",  "A:", "<|im_end|>"]
+        prompt_prefix: "Extract the keywords: "
+        prompt_path: "./prompts/general_fs.txt"
+        hint_prompt_path: "./prompts/general_hint_fs.txt"
+        evaluate_policy_model: True
+        use_lower_baseline: False
+        use_upper_baseline: False
+        gpt3_metrics: 
+          - id: meteor
+            args: {}
+          - id: rouge
+            args: 
+              use_single_ref: False
+          - id: bleu
+            args: {}
+          - id: bert_score
+            args:
+              language: en
+          # # - id: bleurt
+          #   args:
+          #     config_name: bleurt-large-512
+        t5_metrics: 
+          - id: "hint_hit"
+            args: 
+              split: ";"
+  generation_kwargs:
+    ##用户警告：“max_length”和“max_new_tokens”均已设置，但它们具有相同的目的。 `max_length` 64 将优先于 `max_new_tokens` 80。
+    min_length: 10
+    max_new_tokens: 80
+    do_sample: True
+    top_k: 0
+    temperature: 0.7
+

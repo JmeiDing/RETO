@@ -1,0 +1,1 @@
+ 1. Victim opens XLSM file and enables macros. 2. Shellcode drops malware executable and makes it persistent. 3. Malware retrieves encrypted C2 configurations from GitHub/Feed43. 4. C2 URLs are decrypted and malware beacons out for commands. 5. Malware can exfiltrate documents, keylogs, screenshots, etc. to C2 server. 

@@ -1,0 +1,1 @@
+ 1. Spearphishing emails are sent to targets with links to weaponized ZIP archives. 2. The ZIP archives contain shortcuts that execute PowerShell to download Cobalt Strike. 3. Cobalt Strike beacons to the C2 server configured with a modified public profile. 4. The group can then leverage Cobalt Strike for further access, reconnaissance, and data exfiltration. 

@@ -1,0 +1,1 @@
+The attack process starts with social engineering to deliver the malware to victims. The installation executable then configures persistence, installs the server component, and connects to the C2. The C2 can then remotely control the compromised host through encrypted communications. 

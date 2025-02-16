@@ -1,0 +1,1 @@
+ 1. Spear-phishing email sent to employees 2. Malicious document downloads Cobalt Strike beacon 3. Lateral movement to compromise more systems 4. Gather sensitive documents and map processes 5. Access banking applications and ATM network 6. Attempt withdrawal of funds from ATMs 

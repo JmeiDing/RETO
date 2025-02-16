@@ -1,0 +1,1 @@
+ - APT27 uses ZXShell malware with rootkit module - Rootkit installed on compromised hosts to hide artifacts - New version of rootkit analyzed compared to old one - Only minor changes identified for obfuscation - No evidence of new capabilities added to the rootkit - Goal of changes seems to be avoiding detections - Rootkit continues operating in same stealthy manner 

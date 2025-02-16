@@ -1,0 +1,1 @@
+ 1. Send socially engineered emails with malicious documents tailored to the victims. 2. Documents exploit known vulnerabilities to install malware. 3. Malware creates persistence and connects to command and control servers. 4. Further reconnaissance, lateral movement, and data exfiltration can then occur. 

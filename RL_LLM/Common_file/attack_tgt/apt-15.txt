@@ -1,0 +1,1 @@
+ 1. APT15 gains initial access, perhaps through phishing. 2. Mimikatz used to steal credentials and certificates. 3. RoyalCLI, RoyalDNS, BS2005 backdoors deployed. 4. Backdoors receive commands from C&C servers. 5. Windows tools like BCP and CSVDE used to extract documents and data. 6. Stolen VPN certificate provides persistent access even after remediation attempts. 

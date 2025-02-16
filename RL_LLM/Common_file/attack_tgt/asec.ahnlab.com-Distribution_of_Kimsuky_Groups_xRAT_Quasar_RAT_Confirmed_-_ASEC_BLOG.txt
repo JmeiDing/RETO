@@ -1,0 +1,1 @@
+ 1. Installer runs to download and execute obfuscated Gold Dragon malware. 2. Gold Dragon establishes persistence and waits for additional payloads. 3. xRAT remote access trojan downloaded and executed via process hollowing. 4. xRAT allows attacker remote control and data exfiltration capabilities. 5. Uninstaller tool cleans up infection artifacts from the system. 

@@ -1,0 +1,1 @@
+ 1. Spearphishing email sent to target 2. Victim opens password protected RAR attachment 3. RAR contains malicious MHTML document 4. Enabling macros in document drops trojan payload 5. Trojan installs Imminent RAT for remote access 

@@ -1,0 +1,1 @@
+1. A trojanized cryptocurrency app Esilet is distributed. 2. Esilet's JavaScript code downloads the NukeSped malware. 3. NukeSped persists as a launch agent on the system. 4. It connects to command and control servers to receive tasks. 5. NukeSped can survey the system, run commands, read/write files based on commands. 

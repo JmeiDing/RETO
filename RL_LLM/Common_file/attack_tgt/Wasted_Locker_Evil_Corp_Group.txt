@@ -1,0 +1,1 @@
+1. Initial infection involves the SocGholish malware framework distributing a custom Cobalt Strike loader. 2. Cobalt Strike is used to move laterally and elevate privileges on the network. 3. Windows Sysinternals and other tools are used to disable security software. 4. The WastedLocker ransomware is deployed across the network to encrypt files. 

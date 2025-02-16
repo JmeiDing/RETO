@@ -1,0 +1,1 @@
+ 1. The attacker gained access to the CCleaner source code and inserted a backdoor. 2. The modified software was distributed through the normal CCleaner update process, infecting users' systems. 3. The malware collects system data and contacts a C&C server to receive commands. 4. It executes the commands to further compromise the infected system. 

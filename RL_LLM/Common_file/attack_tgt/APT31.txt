@@ -1,0 +1,1 @@
+ - Equation Group develops EpMe exploit for a vulnerability - APT31 gains access to EpMe code sometime before 2014 - APT31 replicates EpMe exploit as Jian - Jian used by APT31 for attacks, caught in 2017 by Lockheed Martin - Microsoft patches vulnerability in 2017, attributes to APT31 as CVE-2017-0005 - EpMe origin and theft undiscovered until this analysis 

@@ -1,0 +1,1 @@
+ - Spear-phishing email with weaponized job document sent to target. - Document macros execute on enablement, collecting system info. - Info exfiltrated via DNS tunneling, malware dropped. - SideTwist malware executes commands from C2 server. - Lateral movement and data exfiltration within compromised networks. - Infrastructure shifted over time to avoid detections. 

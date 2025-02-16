@@ -1,0 +1,1 @@
+ 1. Gain initial access, often via spearphishing. 2. Use malware like ZxShell or SysUpdate for command and control. 3. Install additional payloads and backdoors. 4. Maintain persistent access using web shells. 5. Perform reconnaissance and gather intelligence. 

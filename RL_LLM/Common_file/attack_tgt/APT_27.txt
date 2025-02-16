@@ -1,0 +1,1 @@
+ 1. APT27/Winnti compromised a 3rd party provider to gain initial access. 2. They moved laterally with ASPXSpy and escalated privileges via an exploit. 3. The Clambling and PlugX backdoors were deployed using DLL side-loading techniques. 4. Clambling communicated with a C2 server to receive commands. 5. Commands instructed Clambling to encrypt servers with BitLocker for ransom. 

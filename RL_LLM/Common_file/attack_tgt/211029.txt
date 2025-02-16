@@ -1,0 +1,1 @@
+ 1. Gain initial access through compromised credentials or vulnerabilities. 2. Use penetration tools to map the network and escalate privileges. 3. Exfiltrate data from the network. 4. Deploy ransomware to encrypt files. 5. Demand ransom payment and threaten data leakage or DDoS attacks. 

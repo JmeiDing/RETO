@@ -1,0 +1,1 @@
+ - Initial compromise of perimeter server in 2018 - Lateral movement and persistence using web shells, exploits, credentials dumping etc. - Cryptocurrency mining - Loss of access in early 2020 - Regaining access via web shells - Deploying Polar ransomware and encrypting files - Demanding ransom - Attempts to regain access again after investigation started 

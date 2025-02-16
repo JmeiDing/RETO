@@ -1,0 +1,1 @@
+ 1. Initial infection via exploits years ago 2. Install malware like PlugX for foothold 3. Use Mimikatz, scripts for lateral movement 4. Install specialized malware on key systems 5. Use malware to collect data and maintain access 6. Exfiltrate data through encrypted C2 channels 

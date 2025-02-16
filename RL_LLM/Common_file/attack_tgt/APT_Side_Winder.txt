@@ -1,0 +1,1 @@
+ 1. Malicious RTF document sent to target 2. Document exploits CVE-2017-11882 to drop 8.t file 3. 8.t decrypted and loaded into memory 4. Drops RasTls.dll and dascgosrky.exe after decompressing payloads 5. Dascgosrky.exe hijacked to load RasTls.dll malware 6. Malware provides remote access to attacker 

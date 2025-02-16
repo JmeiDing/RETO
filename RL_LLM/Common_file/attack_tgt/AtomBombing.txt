@@ -1,0 +1,1 @@
+ 1. Malicious code is written into a globally accessible atom table 2. A legitimate program is forced to retrieve code from the atom table 3. The legitimate program is manipulated to execute the injected malicious code 

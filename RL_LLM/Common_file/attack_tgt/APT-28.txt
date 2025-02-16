@@ -1,0 +1,1 @@
+ - Spear-phishing emails sent to hotels containing malware - Malware infects hotels' systems - Password sniffing on WiFi and NetBIOS poisoning spreads infection - EternalBlue exploit used for lateral movement in networks - Guest credentials and data stolen from compromised hotels - Stolen data likely used to target guests of interest to APT28 

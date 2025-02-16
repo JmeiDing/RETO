@@ -1,0 +1,1 @@
+1. Spearphishing email containing Word document purporting to be from legitimate company. 2. User opens Word document, enabling VBA macros. 3. VBA macro decodes and drops Delphi malware executable (wininition). 4. Wininition executes and installs keylogger, logging keystrokes. 5. Keylogs exfiltrated to command and control server specified in malware configuration. 

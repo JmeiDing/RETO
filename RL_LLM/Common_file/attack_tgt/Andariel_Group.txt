@@ -1,0 +1,1 @@
+The attack process often starts with phishing emails to infect victims and establish persistence on systems. Then backdoors communicate with command and control servers to execute commands, exfiltrate data, distribute other malware, and allow the attackers full access. 

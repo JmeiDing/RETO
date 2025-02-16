@@ -1,0 +1,1 @@
+1.Perform reconnaissance to find targets 2.Register domains mimicking legitimate organizations 3.Send phishing emails to targets with either malicious documents or links to fake sites 4.Harvest credentials and/or infect systems with malware 5.Leverage compromised access for further exploitation and espionage 

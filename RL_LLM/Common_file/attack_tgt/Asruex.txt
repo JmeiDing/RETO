@@ -1,0 +1,1 @@
+ 1. User receives and opens malicious shortcut file attachment in email. 2. Shortcut runs PowerShell to download and execute malware downloader. 3. Downloader decodes and executes Asruex malware from image file. 4. Asruex connects to C2, can execute commands, download plugins etc. 

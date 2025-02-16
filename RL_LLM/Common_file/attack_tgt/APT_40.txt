@@ -1,0 +1,1 @@
+ 1. Gain initial access through phishing, exploits, web compromise 2. Install backdoors to gain persistent foothold 3. Harvest credentials and move laterally 4. Use recon tools to gather data 5. Maintain presence with web shells 6. Exfiltrate data archives 

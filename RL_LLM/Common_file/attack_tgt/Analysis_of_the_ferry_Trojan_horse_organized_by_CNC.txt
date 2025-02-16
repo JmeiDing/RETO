@@ -1,0 +1,1 @@
+The attack process involves the first downloader spreading via removable devices, collecting files, and fetching the second downloader. The second downloader then retrieves commands and additional payloads from the attacker's infrastructure to perform malicious activities. 

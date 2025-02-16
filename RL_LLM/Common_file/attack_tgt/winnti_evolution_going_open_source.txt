@@ -1,0 +1,1 @@
+1. Spear phishing emails are sent containing links to fake resumes. 2. The resume pages load BeEF exploitation scripts. 3. BeEF modules are used to exploit the visiting victim. 4. Malware is delivered that communicates with C2 servers on ports 53, 80, 443, 8000. 5. Stolen certificates from gaming organizations are used to sign the malware. 

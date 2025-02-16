@@ -1,0 +1,1 @@
+ 1. Users download fake messaging apps from a malicious app store 2. Spyware app requests intrusive permissions from users 3. App deceives users into granting additional permissions 4. App sends device info to C2 server and receives commands 5. App exfiltrates data like messages, contacts, files to C2 server 6. Operators can remotely control device via C2 server 

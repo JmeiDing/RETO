@@ -1,0 +1,1 @@
+1. Weaponized documents with malicious DLLs are distributed to targets. 2. The documents exploit the DLL side-loading technique to execute the malicious DLLs. 3. The malicious DLLs decrypt and install malware payloads. 4. Payloads establish persistence and connectivity to command servers. 5. Malware collects data from the compromised system and exfiltrates it to attackers. 
